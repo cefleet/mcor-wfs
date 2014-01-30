@@ -11,5 +11,5 @@ app.all('/wfs', function(req,res, next){
 
 //process.env.PORT needs to be changed to a port #
 console.log(process.env.IP);
-app.listen(process.env.PORT);
+app.listen('1010');
 //app.listen('1112');
